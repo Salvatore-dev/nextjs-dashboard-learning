@@ -33,3 +33,10 @@ step 6 connessione a database.
 
 creare repository ghithub
 https://docs.github.com/en/get-started/quickstart/create-a-repo
+
+
+https://nextjs.org/learn/dashboard-app/setting-up-your-database
+
+bisogna mettere on line un progetto attravero il repositoy di github, poi collegare un database. il profilo hobbies di vercell permette un solo data base attivo alla volta
+
+
