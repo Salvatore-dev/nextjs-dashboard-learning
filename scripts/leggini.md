@@ -28,3 +28,8 @@ in questo step si vedono le rotte create con le cartelle che all'interno hanno u
 step 5
 
 ogni volta che <Link>i componenti appaiono nel viewport del browser, Next.js precarica automaticamente il codice per il percorso collegato in background. Nel momento in cui l'utente fa clic sul collegamento, il codice per la pagina di destinazione sarà già caricato in background, e questo è ciò che rende la transizione della pagina quasi istantanea!
+
+step 6 connessione a database. 
+
+creare repository ghithub
+https://docs.github.com/en/get-started/quickstart/create-a-repo
