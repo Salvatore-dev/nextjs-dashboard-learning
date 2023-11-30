@@ -107,6 +107,34 @@ La sospensione ti consente di rinviare il rendering di parti della tua applicazi
 Il luogo in cui collochi i confini della suspense varierà a seconda dell'applicazione. In generale, è buona norma spostare i recuperi dei dati nei componenti che ne hanno bisogno, quindi avvolgere tali componenti in Suspense. Ma non c'è niente di sbagliato nello streaming delle sezioni o dell'intera pagina se è ciò di cui ha bisogno la tua applicazione.
 Spostando il recupero dei dati ai componenti che ne hanno bisogno, puoi creare confini di Suspense più granulari. Ciò consente di eseguire lo streaming di componenti specifici e impedire il blocco dell'interfaccia utente.
 
+step 10 (facoltatico) il prerendering parziale
+
+si tratta di una funzionalita sperimentale di next.js in pratica combina il rendering dinamico e quello parziale.
+
+siccome  se chiami una funzione dinamica all'interno del tuo percorso (ad esempio noStore(), cookies(), ecc.), l'intero percorso diventa dinamico, si puo imperdire questa assolutizzazione e chrere dei buchi (hole) in un componente statico dove si inseriscono i componenti dinamici, come recupero dati, ecc.
+https://nextjs.org/learn/dashboard-app/partial-prerendering
+
+step 11
+
+Learn how to use the Next.js APIs: searchParams, usePathname, and useRouter.
+https://nextjs.org/learn/dashboard-app/adding-search-and-pagination
+
+uso di useSearchParams
+bisogna importare l'hook, creare una variabie con useSearchParams nel componente e creare un nuovo UrlSerachParams con la variabile creata
+https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+
+si usa usePatname e useRouter
+
+uso combinato tra i due, in praca si ottine la path attuale con usePatname e di usa useRouter con metodo Replace (di useRouter) per andare in altra pagina
+
+Best practice: Debouncing
+
+Il debouncing è una pratica di programmazione che limita la velocità con cui una funzione può attivarsi. 
+Evento trigger : quando si verifica un evento che dovrebbe essere rimbalzato (come la pressione di un tasto nella casella di ricerca), viene avviato un timer.
+Attendi : se si verifica un nuovo evento prima della scadenza del timer, il timer viene reimpostato.
+Esecuzione : Se il timer raggiunge la fine del conto alla rovescia, viene eseguita la funzione antirimbalzo.
+Puoi implementare il antirimbalzo in diversi modi, inclusa la creazione manuale della tua funzione antirimbalzo. Per semplificare le cose, utilizzeremo una libreria chiamatause-debounce
 
 
-
+step 12 Mutating Data
+https://nextjs.org/learn/dashboard-app/mutating-data
