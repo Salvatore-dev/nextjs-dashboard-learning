@@ -138,3 +138,11 @@ Puoi implementare il antirimbalzo in diversi modi, inclusa la creazione manuale 
 
 step 12 Mutating Data
 https://nextjs.org/learn/dashboard-app/mutating-data
+
+La sicurezza è una priorità assoluta per le applicazioni web, poiché possono essere vulnerabili a varie minacce. È qui che entrano in gioco le azioni server. Offrono una soluzione di sicurezza efficace, proteggendo da diversi tipi di attacchi, proteggendo i tuoi dati e garantendo l'accesso autorizzato. Le azioni del server raggiungono questo obiettivo attraverso tecniche come richieste POST, chiusure crittografate, controlli rigorosi dell'input, hashing dei messaggi di errore e restrizioni dell'host, che lavorano tutti insieme per migliorare significativamente la sicurezza della tua app.
+
+
+Per gestire la convalida del tipo, sono disponibili alcune opzioni. Sebbene sia possibile convalidare manualmente i tipi, l'uso di una libreria di convalida dei tipi può farti risparmiare tempo e fatica. Per il tuo esempio, useremo Zod, una libreria di convalida basata innanzitutto su TypeScript che può semplificarti questa attività.
+https://zod.dev/
+
+cap 13
