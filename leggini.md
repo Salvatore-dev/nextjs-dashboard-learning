@@ -146,3 +146,17 @@ Per gestire la convalida del tipo, sono disponibili alcune opzioni. Sebbene sia 
 https://zod.dev/
 
 cap 13
+https://nextjs.org/learn/dashboard-app/error-handling
+
+gestione degli errori con garbo, visualizzando l'errore attravero un componte che non blocca le funzionalita dell'applicazione.
+fil dedicato erro.tsx e 
+not-fount.tsx
+
+cap 14
+Improving Accessibility
+
+https://nextjs.org/learn/dashboard-app/improving-accessibility
+
+cap15 
+Autenticazione
+https://auth0.com/blog/complete-guide-to-react-user-authentication-with-example/
