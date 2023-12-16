@@ -159,4 +159,11 @@ https://nextjs.org/learn/dashboard-app/improving-accessibility
 
 cap15 
 Autenticazione
+https://nextjs.org/learn/dashboard-app/adding-authentication
+
+
+qui per aggiungere variabili d'ambinete in produzione
 https://auth0.com/blog/complete-guide-to-react-user-authentication-with-example/
+
+per consultare altri providers per accesso
+https://authjs.dev/getting-started/providers
